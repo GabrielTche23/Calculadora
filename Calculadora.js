@@ -39,7 +39,6 @@ while(continuar){
         console.log("A soma dos valores são: ", numA + numB )
         resultadosDasOperacoes [contador] = soma
         contador++
-        //console.log("O resultado das operações foi: ", resultadosDasOperacoes)
         return soma; 
     }
     function SubtracaodosNumeros (numA , numB){
@@ -47,7 +46,6 @@ while(continuar){
         console.log("A subtração dos valores são: ", subtracao)
         resultadosDasOperacoes [contador] = subtracao
         contador++
-        //console.log("O resultado das operações foi: ", resultadosDasOperacoes)
         return subtracao;    
     }
     function MultiplicarNumeros (numA , numB){
@@ -55,7 +53,6 @@ while(continuar){
         console.log("A multiplicação dos valores é: ", multiplicacao)
         resultadosDasOperacoes [contador] = multiplicacao
         contador++
-        //console.log("O resultado das operações foi: ", resultadosDasOperacoes)
         return multiplicacao
     }
     function DividirNumeros (numA , numB){
@@ -63,7 +60,6 @@ while(continuar){
         console.log("A Divisão dos valores é: ", divisao)
         resultadosDasOperacoes [contador] = divisao 
         contador++
-        //console.log("O resultado das operações foi: ", resultadosDasOperacoes)
         return divisao
     }
     function MostrarResultados (){ 
