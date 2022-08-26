@@ -36,28 +36,24 @@ while(continuar){
     
     function SomarNumeros (numA , numB){
         var soma = numA + numB
-        console.log("A soma dos valores são: ", numA + numB )
         resultadosDasOperacoes [contador] = soma
         contador++
         return soma; 
     }
     function SubtracaodosNumeros (numA , numB){
         var subtracao = numA - numB
-        console.log("A subtração dos valores são: ", subtracao)
         resultadosDasOperacoes [contador] = subtracao
         contador++
         return subtracao;    
     }
     function MultiplicarNumeros (numA , numB){
         var multiplicacao = numA * numB
-        console.log("A multiplicação dos valores é: ", multiplicacao)
         resultadosDasOperacoes [contador] = multiplicacao
         contador++
         return multiplicacao
     }
     function DividirNumeros (numA , numB){
         var divisao = numA / numB
-        console.log("A Divisão dos valores é: ", divisao)
         resultadosDasOperacoes [contador] = divisao 
         contador++
         return divisao
